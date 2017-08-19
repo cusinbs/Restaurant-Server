@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/nameCustom"
+        android:text="Name:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0d00ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/nameCustom"
+        android:layout_marginTop="10dp"
+        android:id="@+id/numCustom"
+        android:text="Number of People:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#209702"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/nameCustom"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/readyCustom"
+        android:text="Ready:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#e4b417"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:padding="5dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageViewEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imageViewDelete"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:layout_toLeftOf="@id/imageViewEdit"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
